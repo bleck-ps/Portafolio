@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BleckDesign</title>
+    <link rel="stylesheet" href="https://use.typekit.net/sxy6ivl.css">
+    <link rel="stylesheet" href="estilos/portafolio.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="img/angulo.png" alt="">
+            <h1>BleckDesign</h1>
+        </a>
+        <ul>
+            <li id="btndiseno">Diseño</li>
+            <li id="btnlogos" style="display: none;">Logos</li>
+            <li id="btn3d">3D</li>
+            <li id="btnvideos">Videos/Animaciones</li>
+            <li id="btnweb">Desarrollo web</li>
+        </ul>
+
+        <div class="menuresp" id="btnmenu">
+            <img src="img/hambu.png" alt="">
+        </div>
+    </header>
+
+    <div class="back">
+        <img src="img/back-port.jpg" alt="">
+    </div>
+   
+    <div class="heroport" id="heroport">
+        <div class="herotextcont">
+            <h2>Bienvenido a mi portafolio</h2>
+            <h3>Selecciona una categoria para ver el contenido</h3>
+        </div>
+    </div>
+
+    <section class="portafolio-pant" id="portpant">
+
+        <!-- Tarjetas -->
+
+            <!-- diseno -->
+        <div class="portafolio-cont" id="diseno">
+
+            <div class="card" onclick="lanzarimagen(1)">
+                <div class="imgagecard"> <img src="img/diseno/libros/libros.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Post libros</p>
+                    <p class="txtcard">Redes sociales</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarimagen(2)">
+                <div class="imgagecard"> <img src="img/diseno/bebidaperfecta/beb1.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Post bebidas</p>
+                    <p class="txtcard">Redes sociales</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarimagen(3)">
+                <div class="imgagecard"> <img src="img/diseno/snack/snack1.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Post texto</p>
+                    <p class="txtcard">Post para redes sociales</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarimagen(4)">
+                <div class="imgagecard"> <img src="img/diseno/drch/drch1.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Cenefa para campaña</p>
+                    <p class="txtcard">Colaboración con Mizrahi</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarimagen(5)">
+                <div class="imgagecard"> <img src="img/diseno/happy/happy1.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Campaña primavera</p>
+                    <p class="txtcard">Campañas</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarimagen(6)">
+                <div class="imgagecard"> <img src="img/diseno/librot/librot.jpeg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Fotomontaje</p>
+                    <p class="txtcard">Terror para redes sociales</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarimagen(7)">
+                <div class="imgagecard"> <img src="img/diseno/mdino/mdino.jpeg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Fotomontaje</p>
+                    <p class="txtcard">Montaje con naturaleza</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarimagen(8)">
+                <div class="imgagecard"> <img src="img/diseno/montajemujer/mujer.jpeg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Fotomontaje</p>
+                    <p class="txtcard">Montaje con manejo de luces</p>
+                </div>
+            </div>
+            
+        </div>
+
+
+            <!-- logos -->
+        <div class="portafolio-cont" id="logos">
+
+            <div class="card" >
+                <div class="imgagecard"></div>
+                <div class="textcard">
+                    <p class="titlecard">Example</p>
+                    <p class="txtcard">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum adipisci at nisi reprehenderit, sapiente facilis voluptas eveniet, repellendus ipsam ut eum culpa officia dolor similique, enim cum magni temporibus! Recusandae?</p>
+                </div>
+            </div>
+
+        </div>
+
+            <!-- 3d -->
+        <div class="portafolio-cont" id="3d">
+
+            <div class="card" onclick="lanzarimagen(9)">
+                <div class="imgagecard"> <img src="img/post/3d/frutas/frutas.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Frutas Vacaciones</p>
+                    <p class="txtcard">Frutas estilo vacacionistas hechas en bleder 3D</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarimagen(10)">
+                <div class="imgagecard"> <img src="img/post/3d/casanavidad/casanavidad.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Casa gengibre</p>
+                    <p class="txtcard">Frutas estilo vacacionistas hechas en bleder 3D</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarimagen(11)">
+                <div class="imgagecard"> <img src="img/post/3d/escaleras/escaleras.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Render terror</p>
+                    <p class="txtcard">Escaleras estilo terror</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarvideo(12)">
+                <div class="imgagecard"> <img src="img/post/3d/hallowen/hallowen-minico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Animación hallowen</p>
+                    <p class="txtcard">Animacion para redes sociales, efectos en after effects</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarimagen(13)">
+                <div class="imgagecard"> <img src="img/post/3d/ofrenda/ofrenda.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Ofrenda día de muertos</p>
+                    <p class="txtcard">Ofrenda para redes sociales, back en photoshop</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarvideo(14)">
+                <div class="imgagecard"> <img src="img/videos/terror/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Video terror</p>
+                    <p class="txtcard">Video para redes personales</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- videos -->
+        <div class="portafolio-cont" id="videos">
+
+            <div class="card" onclick="lanzarvideo(15)">
+                <div class="imgagecard"> <img src="img/videos/happye/campana.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Pantalla para campaña</p>
+                    <p class="txtcard">Pantalla animada campaña primavera</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarvideo(16)">
+                <div class="imgagecard"> <img src="img/videos/14feb/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Video 14 de febrero</p>
+                    <p class="txtcard">Video para redes sociales</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarvideo(17)">
+                <div class="imgagecard"> <img src="img/videos/2023/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Video año nuevo</p>
+                    <p class="txtcard">Video para redes sociales</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarvideo(18)">
+                <div class="imgagecard"> <img src="img/videos/fiesta/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Video año nuevo</p>
+                    <p class="txtcard">Video para pantallas año nuevo</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarvideo(19)">
+                <div class="imgagecard"> <img src="img/videos/lexin/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Video promoción</p>
+                    <p class="txtcard">Video para pantallas</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarvideo(20)">
+                <div class="imgagecard"> <img src="img/videos/mimosa/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Video instructivo</p>
+                    <p class="txtcard">Video para redes sociales</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarvideo(21)">
+                <div class="imgagecard"> <img src="img/videos/navidad/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Animación navidad</p>
+                    <p class="txtcard">Video para redes sociales</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="lanzarvideo(22)">
+                <div class="imgagecard"> <img src="img/videos/stk/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Video 14 de febrero</p>
+                    <p class="txtcard">Video para STK</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- web -->
+        <div class="portafolio-cont" id="web">
+
+            <div class="card">
+                <a href="img/web/TacosFrontera NEW/index.html">
+                <div class="imgagecard"><img src="img/web/TacosFrontera NEW/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Menú (smartphones)</p>
+                    <p class="txtcard">Menú hecho para restaurante tacos frontera</p>
+                </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="img/web/Scroll/index.html">
+                <div class="imgagecard"><img src="img/web/Scroll/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Menú (smartphones)</p>
+                    <p class="txtcard">Test de menú con navegador scroll</p>
+                </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="img/web/BH21/index.html">
+                <div class="imgagecard"><img src="img/web/BH21/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Apliacion de seguimiento</p>
+                    <p class="txtcard">Boceto de plataforma para seguimiento de proyectos</p>
+                </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="img/web/aplication/index.html">
+                <div class="imgagecard"><img src="img/web/aplication/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Plataforma centros(smarphones)</p>
+                    <p class="txtcard">Plataforma para buscar centros por ubicación</p>
+                </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="img/web/game/index.html">
+                <div class="imgagecard"><img src="img/web/game/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Juego autos</p>
+                    <p class="txtcard">Juego en cascada con JS</p>
+                </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="img/web/gato/gato.html">
+                <div class="imgagecard"><img src="img/web/gato/ico.jpg" alt=""></div>
+                <div class="textcard">
+                    <p class="titlecard">Tic tac toe</p>
+                    <p class="txtcard">Juego programado con JS</p>
+                </div>
+                </a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <div class="ventana" id="ventana">
+        <div class="ghost" id="ghost"></div>
+        <div class="contven">
+            <img src="" alt="" id="imagebox">
+        </div>
+    </div>
+
+
+    <div class="ventana" id="ventanavid">
+        <div class="ghost" id="ghostvid"></div>
+        <div class="contven">
+            <video src="" id="vidbox" controls autoplay class="vidbox"></video>
+        </div>
+    </div>
+
+
+
+    <div class="menuvent" id="menuresp">
+        <div class="ghost2" id="ghost2"></div>
+        <div class="menuventcont">
+            <div class="menudev">
+            <ul>
+                <li id="btndiseno" class="excl" onclick="disenoln()">Diseño</li>
+                <li id="btnlogos" style="display: none;" onclick="logosln()">Logos</li>
+                <li id="btn3d" onclick="tdln()">3D</li>
+                <li id="btnvideos" onclick="videosln()">Videos/Animaciones</li>
+                <li id="btnweb" onclick="webln()">Desarrollo web</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ghostfull" id="ghostfull"></div>
+
+
+    <script src="script/portafolio.js"></script>
+</body>
+</html>

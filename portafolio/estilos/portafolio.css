@@ -1,0 +1,329 @@
+@font-face {
+    font-family: "arbo";
+    src: url("../../fonts/Arboria-Book.ttf");
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: rgb(21, 21, 21);
+    background: linear-gradient(0deg, rgb(14, 14, 14) 0%, rgb(68, 68, 68) 100%), rgb(21, 21, 21);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: arbo;
+    color: #fff;
+}
+
+
+
+header {
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.685);
+    font-size: 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid #b5f8ff;
+    z-index: 100;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px;
+}
+header a img {
+    height: 120%;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+header ul li {
+    font-size: 20px;
+    list-style: none;
+}
+header ul li:hover {
+    cursor: pointer;
+    color: #ababab;
+}
+
+
+/* Nav responsive */
+
+.menuresp {
+    height: 100%;
+    display: none;
+}
+.menuresp img {
+    height: 100%;
+}
+.menuresp img:hover {
+    cursor: pointer;
+}
+.menuvent {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    z-index: 250;
+}
+.menuvent .ghost2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    background: #242424dc;
+}
+.menuvent .ghost2:hover {
+    cursor: pointer;
+}
+.menuvent .menuventcont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+.menuvent .menuventcont .menudev {
+    width: 50%;
+    height: 100%;
+    background: rgb(38, 38, 38);
+    border-left: 3px solid #b5f8ff;
+    z-index: 251;
+}   
+.menuvent .menuventcont .menudev ul {
+    list-style: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 5px 5px 20px;
+}
+.menuvent .menuventcont .menudev ul li {
+    text-align: center;
+    border-bottom:2px solid #b5f8ff;
+    padding: 30px 0px;
+}
+.menuvent .menuventcont .menudev ul li:hover {
+    cursor: pointer;
+}
+.menuvent .menuventcont .menudev ul .excl {
+    border-top: 2px solid #b5f8ff;
+}
+
+
+.heroport {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+.herotextcont {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.herotextcont h2 {
+    font-size: 70px;
+    text-align: center;
+}
+.herotextcont h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+.portafolio-pant {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    overflow-y: scroll;
+    z-index: 3;
+}
+.portafolio-pant .portafolio-cont {
+    width: 90%;
+    height: fit-content;
+    padding: 120px 20px 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.portafolio-pant .portafolio-cont .card {
+    width: 20%;
+    height: 400px;
+    color:#fff;
+    background: rgb(55, 55, 55);
+    border: 4px solid rgb(57, 67, 74);
+    border-radius: 30px;
+    box-shadow: 3px 3px 15px rgb(0, 0, 0);
+    overflow: hidden;
+}
+.card > a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.portafolio-pant .portafolio-cont .card:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    background: #242424;
+    transition: 0.5s ease;
+}
+.portafolio-pant .portafolio-cont .card .imgagecard {
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portafolio-pant .portafolio-cont .card .imgagecard img {
+    width: 100%;
+}
+.portafolio-pant .portafolio-cont .card .textcard {
+    width: 100%;
+    height: 40%;
+}
+.portafolio-pant .portafolio-cont .card .textcard .titlecard {
+    font-size: 25px;
+    text-align: center;
+    color: #b5f8ff;
+    font-family: "grenadine-mvb", sans-serif;
+    font-style: normal;
+    margin-top: 10px;
+}
+.portafolio-pant .portafolio-cont .card .textcard .txtcard {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.ventana {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    z-index: 110;
+    justify-content: center;
+    align-items: center;
+}
+.ventana .ghost {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    background: #0a0a0ade;
+}
+.ventana .contven {
+    width: fit-content;
+    height: 80%;
+    background: #fff;
+    z-index: 111;
+    overflow-y: scroll;
+    border: 3px solid #fff;
+    border-radius: 20px;
+}
+.ventana .contven img {
+    width: fit-content;
+    height: 100%;
+}
+.vidbox {
+    width: fit-content;
+    height: 100%;
+}
+
+.back {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    z-index: -10;
+}
+.back img {
+    height: 100%;
+}
+
+.ghostfull {
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    z-index: 300;
+    position: fixed;
+    bottom: 0px;
+    transition: 500ms ease;
+    opacity: 1;
+    display: none;
+}
+
+
+
+
+
+/*Responsive */
+
+@media screen and (max-width: 1000px) {
+    .portafolio-pant .portafolio-cont .card {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .portafolio-pant .portafolio-cont .card {
+        width: 40%;
+        height: 330px;
+    }
+    .portafolio-pant .portafolio-cont .card .textcard .titlecard {
+        font-size: 20px;
+    }
+    .portafolio-pant .portafolio-cont .card .textcard .txtcard {
+        font-size: 12px;
+    }
+    .ventana .contven {
+        width: 90%;
+        height: fit-content;
+        border-radius: 10px;
+    }
+    .ventana .contven img {
+        width: 100%;
+        height: fit-content;
+    }
+    .vidbox {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+
+/* Nav responsive */
+
+@media screen and (max-width: 850px) {
+    header ul {
+        display: none;
+    }
+    .menuresp {
+        display: flex;
+    }
+}

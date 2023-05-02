@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "arbo";
+    src: url("../../fonts/Arboria-Book.ttf");
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #000;
+    font-family: arbo;
+    color: #fff;
+}
+
+
+header {
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.685);
+    font-size: 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid #b5f8ff;
+    z-index: 100;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px;
+}
+header a img {
+    height: 100%;
+}
+
+
+.sobremi {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobremi .boxcont {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: #3c3c3c;
+    border: 5px solid #fff;
+    border-radius: 40px;
+}
+.sobremi .boxcont .image {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobremi .boxcont .image img {
+    height: 90%;
+}
+.sobremi .boxcont .infotxt {
+    width: 60%;
+}
+.sobremi .boxcont .infotxt p {
+    padding: 20px;
+    font-size: 30px;
+}

@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+}
+body {
+	font-family: Arial;
+	background: #0B2227;
+	color:#fff;
+}
+.gameboard {
+	display: flex;
+	flex-direction: row;
+	background: #1D798E;
+	width: 40%;
+	margin: 10px auto;
+	justify-content: center;
+	padding: 20px 70px;
+	border:5px solid #3D9BB0;
+	border-radius: 30px;
+}
+.startbtn {
+	display: flex;
+	justify-content: center;
+	margin: 30px auto;
+}
+.start {
+	font-size: 30px;
+	width: 30%;
+	height: 50px;
+	background: #11504D;
+	border:3px solid #3D9BB0;
+	color: #6BE9F1;
+	border-radius: 15px;
+	transition: 500ms ease;
+}
+.start:hover {
+	background: #3D9BB0;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.score {
+	font-size: 40px;
+	width: 40%;
+	margin: 30px auto 0px auto;
+	text-align: center;
+	text-align: center;
+}
+.caja {
+	width: 100px;
+	height: 100px;
+	background: #124652;
+	margin: 10px 20px;
+	border-radius: 5px;
+}
+.ril{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.btn {
+	width: 100px;
+	height: 70px;
+	background: none;
+	border: 0px solid #32855F;
+}
+.dn {
+	background: url(img/auto.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.sl {
+	background: url(img/turtle.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}

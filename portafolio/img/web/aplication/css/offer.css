@@ -1,0 +1,30 @@
+.ghost a img {
+	height: 100%;
+	margin-left: 10px;
+}
+.ghost a {
+	height: 60%;
+}
+.ghost {
+	display: flex;
+	align-items: center;
+}
+body {
+	background: #000;
+}
+.menucaja {
+	width: 20%;
+}
+header {
+	position: fixed;
+	width: 100%;
+	margin: 0px;
+	padding: 10px;
+}
+.offerimage {
+	width: 100%;
+	padding-top: 70px;
+}
+.offerimage img {
+	width: 100%;
+}

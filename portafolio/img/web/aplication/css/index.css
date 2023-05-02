@@ -1,0 +1,227 @@
+@font-face {
+  font-family: social;
+  src: url(../fonts/social.ttf);
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	color: #fff;
+	font-family: arboria, Arial ;
+	background: #535A60;
+}
+header {
+	width: 100%;
+	height: 50px;
+	background: rgb(251,186,0);
+	background: linear-gradient(0deg, rgba(251,186,0,1) 0%, rgba(240,130,19,1) 100%);
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-content: center;
+	position: fixed;
+}
+header > .ghost {
+	width: 30%;
+}
+header > .logo {
+	width: 30%;
+	display: flex;
+	justify-content: center;
+}
+header > .logo > img {
+	height: 100%;
+}
+header > .menu {
+	width: 30%;
+	display: flex;
+	justify-content: right;
+	padding: 10px 40px 10px 0px;
+}
+header .menu img {
+	width: 100%;
+	height: 100%;
+	transition: 200ms ease;
+}
+header .menu img:hover {
+	cursor: pointer;
+	transform: scale(0.9);
+}
+
+
+
+.selector {
+	width: 100%;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+	display: none;
+	flex-direction: row;
+	position: fixed;
+	z-index: 20;
+	
+}
+.selector .shadow {
+	background: rgba(0, 0, 0, 0.6);
+	width: 40%;
+	height: 100vh;
+}
+.selector .menulateral {
+	width: 60%;
+	height: 100vh;
+	background: #efefef;
+	color: #000;
+	padding: 10px;
+	overflow: scroll;
+	z-index: 21;
+}
+.selector .menulateral .menubox {
+	border-bottom: 1px solid #000;
+	padding: 30px 0px 30px 0px;
+}
+.selector .menulateral .lenguajebox .select-e {
+	font-size: 20px;
+}
+.selector .menulateral .lenguajebox input {
+	display: none;
+}
+.selector .menulateral .inputidiomabox {
+	margin-top: 15px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.inputidiomabox .labelradio {
+	background: rgba(240, 130, 19, 0.4);
+	padding: 15px 5px;
+	text-align: center;
+	width: 49%;
+}
+.inputidiomabox input[type="radio"]:checked + .labelradio {
+	background: rgba(240, 130, 19, 1.0);
+}
+.contactocontent {
+	padding-left: 10px;
+	margin-top: 20px;
+	font-family: social;
+}
+.contactocontent a {
+	display: block;
+	text-decoration: none;
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 70px;
+}
+.select-e {
+	margin-right: 5px;
+} 
+.flex {
+	display: flex;
+}
+.facebook {
+	color: #3b5998;
+}
+.twitter {
+	color:#1DA1F2 ;
+}
+.instagram {
+	color: #E1306C;
+}
+.quienescontent {
+	padding-left: 10px;
+	margin-top: 20px;
+}
+.quienescontent a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 10px;
+	margin-top: 5px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+.areaslatam {
+ background: #F08213;
+}
+.titulo {
+	margin: 0px 5% 50px 5%;
+	padding-top: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+}
+.titulo select {
+	background: #F08213;
+	border: 2px solid #fff;
+	padding: 5px;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 15px;
+	font-family: arboria, sans-serif;
+}
+.restaurantes-box {
+	width: 80%;
+	height: 60vh;
+	margin: 0px auto;
+	padding: 20px 5% 50px 5%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background: #f2f2f2;
+	border-radius: 20px 20px 0px 0px;
+	box-shadow: -2px 2px 20px #000;
+}
+.restaurantes-box .rest-box {
+	width:45% ;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+.restaurantes-box .rest-box a {
+	width: 100%;
+	margin-top: 20px;
+}
+.restaurantes-box .rest-box img {
+	width: 80%;
+	background: #fff;
+	padding: 10px;
+	border: 2px solid #535A60;
+	border-radius: 50%;
+	box-shadow: 1px 1px 2px #000;
+}
+.restaurantes-box .rest-box label {
+	text-align: center;
+	color: #000;
+	font-family: arboria, sans-serif;
+}
+footer {
+	background: #000;
+	color: #fff;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: -2px;
+	z-index: 2;
+	box-shadow: -2px 2px 15px #000;
+}
+footer a {
+	width: 80%;
+	margin: 20px auto;
+	background: #F08213;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	box-shadow: 1px 1px 15px #F08213;
+}
+.activate {
+	display: flex;
+	width: 100%;
+}

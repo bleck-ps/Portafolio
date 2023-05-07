@@ -42,6 +42,9 @@ body {
     flex-direction: column;
     gap: 100px;
 }
+.hero::-webkit-scrollbar {
+    display: none;
+}
 .hero .heroinf {
     height: 30%;
     display: flex;

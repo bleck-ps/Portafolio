@@ -306,6 +306,7 @@ nav .navint .navmenutxt {
     }
     .boxhero .hero2 .txthero2 {
         width: 50%;
+        font-size:20px;
     }
     .hero3 .marcas {
         flex-direction: column;

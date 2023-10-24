@@ -5,6 +5,10 @@ const video = document.getElementById('video');
 const tred = document.getElementById('tred');
 const equis = document.getElementById('equis');
 
+const contactobtn = document.getElementById('contactobtn');
+const mcontacto = document.getElementById('mcontacto');
+const contactshadow = document.getElementById('contactshadow');
+
 const eldiseno = document.getElementsByClassName('diseno');
 let arrayeldiseno = Array.from(eldiseno);
 const elweb = document.getElementsByClassName('web');
@@ -542,3 +546,11 @@ function redirect(idre){
         },1100)
     },50)
 }
+
+contactobtn.addEventListener('click',function(){
+    mcontacto.style.display = "flex";
+})
+
+contactshadow.addEventListener('click',function(){
+    mcontacto.style.display = "none";
+})

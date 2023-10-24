@@ -1,0 +1,188 @@
+@font-face {
+    font-family: retroica;
+    src: url(../fonts/trade.otf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+body {
+    background: #000;
+    overflow: hidden;
+}
+.inicio {
+    width: 100vw;
+    height: 100vh;
+    background:url(../img/hero/background.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.inicio .mastercont {
+    width: 100%;
+    height: 100%;
+}
+.inicio .mastercont .backhero {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.inicio .mastercont .backhero .backherocont {
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 8;
+    position: fixed;
+    top:0px;
+    left: 0px;
+}
+.inicio .mastercont .backhero .backherocont p {
+    color: #fff;
+    font-size: 50px;
+    font-family: retroica;
+}
+.inicio .mastercont .backhero .backherocont .p1 {
+    transform: rotate(180deg);
+}
+.inicio .mastercont .backhero .backherocont2 {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    position: fixed;
+    top:0px;
+    left: 0px;
+}
+.inicio .mastercont .backhero .backherocont2 p {
+    color: #fff;
+    font-size: 50px;
+    font-family: retroica;
+    transform: rotate(-90deg);
+    width: max-content;
+}
+.inicio .mastercont .backhero .backherocont2 .p2 {
+    transform: rotate(-270deg);
+}
+
+.inicio .mastercont .hero {
+    width: 100vw;
+    height: 100vw;
+    max-height: 100vh;
+    z-index: 100;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inicio .mastercont .hero .img1 {
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    position: absolute;
+    z-index: 103;
+    transition: 1s ease;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.inicio .mastercont .hero .img2 {
+    width: 80vw;
+    height: 80vw;
+    display: flex;
+    position: absolute;
+    z-index: 102;
+    transition: 1s ease;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.inicio .mastercont .hero .img3 {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    position: absolute;
+    z-index: 101;
+    transition: 1s ease;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid rgb(181, 42, 178);
+}
+.inicio .mastercont .hero .img1 img {
+    width: 40vw;
+    height: 40vw;
+    position: absolute;
+    transition: 1s ease;
+}
+.inicio .mastercont .hero .img2 img {
+    width: 80vw;
+    height: 80vw;
+    position: absolute;
+    transition: 1s ease;
+}
+.inicio .mastercont .hero .img3 img {
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    transition: 1s ease;
+}
+.inicio .mastercont .text {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    max-height: 100vh;
+    top: 0px;
+    left: 0px;
+    z-index: 200;
+    justify-content: center;
+    align-items: center;
+    font-family: retroica;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    text-align: center;
+    transition: 1s ease;
+}
+.inicio .mastercont .text p {
+    transition: 0.5s ease;
+}
+
+.buttonstart {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    z-index: 501;
+}
+.buttonstart .btnstimg {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 10px;
+    transition: 0.7s ease;
+}
+.buttonstart .btnstimg img {
+    width: 100%;
+    height: 100%;
+}
+.shadowstart {
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    position: fixed;
+    left: 0px;
+    top: 100vh;
+    box-shadow: -10px 0px 100px #000;
+    z-index: 500;
+    transition: 1s ease;
+}
